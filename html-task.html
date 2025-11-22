@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Page title -->
+  <title> HTML blog post </title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: lightpink;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    header, article, aside, footer {
+      text-align: center;
+      max-width: 800px;
+    }
+    
+    table {
+      margin: 20px auto;
+    }
+    
+    form {
+      text-align: left;
+      display: inline-block;
+    }
+ </style>
+</head>
+<body>
+  <!-- Header section containing blog title and naigation menu-->
+  <header>
+    <h1> HTML Blog Post </h1>
+    <nav>
+      <a href="https://github.com/priyapowar812-pixel/html-css/blob/main/newTable.html">create table code </a><br>
+      <a href="https://github.com/priyapowar812-pixel/html-css/blob/main/newForm.html">create form </a>
+    </nav>
+  </header>
+  
+  <!-- Main content area containing article and aside -->
+  <article>
+    <section style="background-color:blueviolet;"><p> We learned to create table in html. </p>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Player name</th>
+          <th> player country</th>
+          <th>runs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rohit Sharma</td>
+          <td>India</td>
+          <td>9000</td>
+        </tr>
+        <tr>
+          <td>Virat Kohli</td>
+          <td>India</td>
+          <td>12000</td>
+        </tr>
+      </tbody>
+    </table></section>
+    <section style="background-color: aquamarine;"><p> We learned to create form</p>
+   <form method="post" action="/subscribe">
+     <label for="name">Enter Name</lable>
+     <Input id="name" type="text"><br>
+     <label for="email">Enter Email</lable>
+     <Input id="emial" type="email"><br><br>
+     
+     <caption><b>select course:</b></caption><br>
+       <label><input type="radio" name="course_name"> engineer</label><br>
+       <label><input type="radio" name="course_name"> doctor</label><br><br>
+       
+       
+       <caption><b>select year</b></caption>
+       <select name="year" id="year">
+         <option>2024</option>
+         <option>2025</option>
+       </select>
+       <br><br>
+       <label><input type="checkbox">confirm</label>
+       <br><br>
+       <input type="submit" value="enroll">
+   </form></section>
+  </article> 
+  
+<aside>
+  We refered below courses to learn
+  <a href= "https://www.educative.io/pal/html-css-js/challenge-build-a-web-page-using-common-html-tags">Educative IO </a>
+</aside>
+
+ <!-- Footer section containing copyright and additional links -->
+ <footer>
+   <p>&copy; educative </p>
+ </footer>
+
+  
+
+</body>
+</html>
