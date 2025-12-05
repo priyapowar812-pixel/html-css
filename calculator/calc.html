@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <title>Simple calculator</title>
+</head>
+<body>
+   <div>
+    <h1>Simple arithmatic calculator</h1>
+    <label for="num1">Enter Number 1</label>
+    <input type="number" id="num1" name="num1"><br><br>
+    <label for="num2">Enter Number 2</label>
+    <input type="number" id="num2" name="num2"><br><br>
+     
+
+
+   </div> 
+   <div class="container">
+    <div>
+        <input id= "addid" type="submit" value="addition" onclick="addition()"><br>
+        <label for="result" id="add"></label>
+    </div>
+    <div>
+        <input id= "subid" type="submit" value="substraction" onclick="substraction()"><br>
+        <label for="result" id="sub"></label>
+    </div>
+    <div>
+        <input  id="multiid" type="submit" value="multiplication" onclick="multiplication()"><br>
+        <label for="result" id="multi"></label>
+    </div>
+    <div>
+        <input  id="divid" type="submit" value="division" onclick="division()"><br>
+        <label for="result" id="div"></label>
+    </div>
+    <div>
+        <input  id="modid" type="submit" value="modulus" onclick="modulus()"><br>
+        <label for="result" id="mod"></label>
+    </div>
+   </div>
+</body>
+</html>

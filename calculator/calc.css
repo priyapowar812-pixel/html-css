@@ -1,0 +1,42 @@
+html {
+    display:grid;
+    justify-content: center;
+    width:80vw;
+    border: 5px solid orange;   
+    /* grid-template-columns:1fr; */
+}
+
+.container {
+    display: flex;
+    padding-right : 30px;
+    margin-top : 30px;
+}
+
+.container:focus-visible{
+    background-color:lightblue;
+}
+
+#num1:focus-visible {
+    background-color: aquamarine;
+
+}
+.container div {
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#addid:hover {
+   background-color:lightcoral;
+}
+#subid:hover {
+   background-color:lightcoral;
+}
+#multiid:hover {
+   background-color:lightcoral;
+}
+#divid:hover {
+   background-color:lightcoral;
+}
+#modid:hover {
+   background-color:lightcoral;
+}
